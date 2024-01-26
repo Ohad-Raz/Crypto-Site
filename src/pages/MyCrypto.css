@@ -1,0 +1,12 @@
+.cryptoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header{
+text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+font-size: 2.2rem;
+  text-align: center;
+  color: rgb(64, 205, 224);}
+  

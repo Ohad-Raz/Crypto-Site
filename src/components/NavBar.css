@@ -1,0 +1,53 @@
+.NavBarContainer{
+  background-color: rgba(95, 101, 98, 0.507);
+
+    height: 4rem;
+    font-size: 1.9rem;
+
+  
+}
+.NavBarContainer a{
+color: rgb(0, 136, 255);
+text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+padding-top: 0.5rem;
+
+
+  
+}
+
+.signOutBtn{
+  background-color: rgba(100, 101, 95, 0.032);
+  height: 2rem;
+  margin-top: 1rem;
+  padding-top: 0.2rem;
+  /* display: contents; */
+  color: azure;
+  font-size: 1.2rem;
+  border: 1px solid rgba(255, 217, 0, 0.225);
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .NavBarContainer {
+    font-size: 1.7rem;
+  }
+  .signOutBtn{
+    font-size: 1.1rem;
+  }
+}
+
+
+
+@media screen and (max-width:432px) {
+  .NavBarContainer{
+    font-size: 1.5rem;
+  }
+  .signOutBtn{
+    font-size: 1rem;
+  }
+}
+

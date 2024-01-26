@@ -1,0 +1,69 @@
+.singleCoinContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.singleCoin {
+  font-size: 1.1rem;
+
+  overflow-wrap: break-word;
+  border: 1px solid rgba(255, 217, 0, 0.225);
+  border-radius: 8px;
+  padding: 2%;
+  margin: 2%;
+  max-width: 450px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #F9F7F3;
+  overflow: hidden;
+  box-sizing: border-box;
+  width:100%;
+  /* margin-right: 2%; */
+  /* margin-bottom: 2%; */
+  height: auto;
+  min-height: 330px;
+  color: azure;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to bottom right,
+    #1527348a,
+    #2c263bb5,
+    #3c3b37ef,
+    #281d32a1,
+    rgba(255, 217, 0, 0.514)
+  );
+  transition: background-color 1s; /* Add a transition for smoother color change */
+
+}
+
+.singleCoin:hover {
+  background-color:     #5be1ffcc
+  ; /* Brighter background color on hover */
+}
+
+.singleCoin h2 {
+  font-size: 1.8em;
+  margin-bottom: 2%;
+  color: #1E466E;
+  overflow-wrap: break-word;
+}
+
+
+@media screen and (max-width: 770px) {
+  .singleCoin {
+height: auto;
+min-width: 70%;
+padding-left: 4%;
+  }
+}
+
+@media screen and (max-width:432px) {
+  .singleCoin {
+height: auto;
+min-width: 80%;
+max-width: 90%;
+padding-left: 10%;
+  }
+}
+

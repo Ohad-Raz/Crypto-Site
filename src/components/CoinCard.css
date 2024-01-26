@@ -1,0 +1,125 @@
+.coinContainer {
+
+  border: 1px solid rgba(255, 217, 0, 0.225);
+  border-radius: 8px;
+  padding: 2%;
+  margin: 2%;
+  max-width: 450px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to bottom right,
+    #1527348a,
+    #2c263bb5,
+    #3c3b37ef,
+    #281d32a1,
+    rgba(255, 217, 0, 0.514)
+  );
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 48%;
+
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 1s
+}
+
+.coinContainer:hover {
+  background-color:
+    #5be1ffcc
+
+ /* 1s duration for hover state */
+}
+
+
+
+.coinContainer h2 {
+  font-size: 1.8em;
+  margin-bottom: 2%;
+  color: #d6ebff;
+  overflow-wrap: break-word;
+}
+
+.coinContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  color: azure;
+}
+
+.coinContainer ul li {
+  margin-bottom: 2%;
+  overflow-wrap: break-word;
+  font-size: 1.1rem;
+
+}
+
+.coinContainer strong {
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+.coinContainer button {
+  background: linear-gradient(
+    to right,
+    #f4cd41,
+    #f2da61
+  );
+  color: #1E466E;
+  border: none;
+  padding: 2% 4%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2%;
+  transition: background-color 0.3s;
+text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.coinContainer a{
+color: rgb(0, 136, 255);
+text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);}
+
+
+.coinContainer button:hover {
+  background-color: #DAA520;
+}
+
+.coinContainer button:active {
+  background-color: #B8860B;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .coinContainer {
+    min-width:60%;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .coinContainer {
+    min-width:70%;
+  }
+}
+
+
+
+@media screen and (max-width:432px) {
+  .coinContainer {
+height: auto;
+min-width: 75%;
+max-width: 90%;
+  }
+}
+
+
+
+
